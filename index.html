@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>Voce està vendo a imagem completa? Experimente ampliar o tamanho da suajanela para aproveitar a melhor expériança</p>
+    
+    <picture>
+        <source media="(max-width:260px)" srcset="Images/paisagem-p.png" type="image/png">
+        <source media="(max-width:740px" srcset="Images/paisagem-m.png" type="image/png">
+        <img src="Images/paisagem-g.png" alt="image Flexivel">
+        
+    </picture>
+</body>
+</html>
